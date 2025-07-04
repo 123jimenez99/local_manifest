@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="derpfest-devices" fetch="https://github.com/DerpFest-Devices" clone-depth="1" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/jasmine_sprout" name="device_xiaomi_jasmine_sprout" remote="derpfest-devices" revision="13" />
+    <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="derpfest-devices" revision="13" />
+    <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="derpfest-devices" revision="13" />
+
+    <!-- Kernel tree -->
+    <project path="kernel/xiaomi/jasmine_sprout" name="kernel_xiaomi_sdm660" remote="derpfest-devices" revision="13" />
+
+    <!-- Vendor trees -->
+    <project path="vendor/xiaomi/jasmine_sprout" name="vendor_xiaomi_jasmine_sprout" remote="derpfest-devices" revision="14" />
+    <project path="vendor/xiaomi/sdm660-common" name="alex_vendor_xiaomi_sdm660-common" remote="derpfest-devices" revision="13-st" />
+
+    <!-- Hardware trees -->
+    <project path="hardware/xiaomi/sdm660-common" name="alex_vendor_xiaomi_sdm660-common" remote="derpfest-devices" revision="13-st" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="derpfest-devices" revision="13" />
+</manifest>
